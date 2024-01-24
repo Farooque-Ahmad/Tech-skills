@@ -1,0 +1,376 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    background-color: crimson;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+
+.logo h1 {
+    font-size: 30px;
+    color: #fff;
+    padding-left: 20px;
+}
+
+.menu a {
+    /* align-items: center; */
+    text-decoration: none;
+    font-size: 20px;
+    color: #fff;
+    padding: 20px;
+}
+
+.menu i {
+    color: #fff;
+    font-size: 20px;
+    padding-right: 20px;
+}
+
+.home {
+    background: url(bg3.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    
+}
+
+.home1 {
+    box-sizing: border-box;
+    color: #fff;
+    height: fit-content;
+    width: 350px;
+    height: auto;
+    line-height: 2rem;
+    padding: 20px -40px;
+    border-radius: 15px;
+    background-color: rgba(220, 20, 60, 0.6);
+    margin-right: 100px;
+}
+
+.heading {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pera {
+    /* text-align: justify; */
+    padding: 20px;
+    font-size: 20px;
+}
+.card-heading{
+    text-align: justify;
+}
+.Read-more {
+    display: flex;
+    justify-content: center;
+}
+
+.Read-button {
+    background: transparent;
+    border: 2px solid white;
+    padding: 10px 25px;
+    border-radius: 5px;
+    margin-bottom: 25px;
+}
+
+.Read-button:hover {
+    background-color: #fff;
+    transition: all 0.3s;
+}
+
+.Read-button:hover a {
+    color: gray;
+}
+
+.Read-button a {
+    text-decoration: none;
+    color: #fff;
+}
+.heading1{
+    text-align: center;
+    color:black;
+    margin-top: 50px;
+}
+.card1{
+    box-sizing: border-box;
+    background-color: black;
+    color: #fff;
+    width: 340px;
+    height: auto;   
+    padding: 25px;
+    border-radius: 10px;
+
+}
+.card1 img{
+    width: 100%;
+    height: 200px;
+   
+
+}
+.pera1{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-bottom:20px;
+    line-height:2rem;
+}
+.card-group{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.our-team{
+    background-color: black;
+    height: 100%;
+}
+.team{
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+.main-2{
+    box-sizing: border-box;
+    background-color: #6e6464;
+    width: 350px;
+    text-align: justify;
+    margin-bottom: 30px;
+    padding: 30px;
+    font-size: 20px;
+    line-height: 2rem;
+    color: white;
+    border-radius: 5px;
+}
+
+.main-2{
+    transition: all 0.3s;
+}
+
+.img-box1{
+    transition: all 0.3s;
+}
+
+.main-2:hover{
+    background-color: crimson;
+}
+.main-2:hover .img-box1{
+  border-color: white;
+}
+ .img-box1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-top: 20px;
+    align-items:center ;
+    border: 3px solid crimson;
+}
+.img-box{
+    text-align: center;
+}
+.heading-team{
+    text-align: center;
+}
+.heading-team2{
+    text-align: center;
+}
+.main-div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    /* column-gap: 20px; */
+}
+.text-contact{
+    text-align: center;
+    padding-top: 40px;
+}
+.text-group{
+     display: flex;
+     flex-direction: column;
+     flex-wrap: wrap;
+     width: 100%;
+     text-align: justify;
+
+}
+.continer{
+    width: 100%;
+}
+.icon-main{
+    display: flex;
+}
+.icon-main2{
+    display:flex;
+}
+.icon{
+color: crimson;
+font-size: 30px;
+padding-top: 8px;
+}
+.Address-text{
+    padding: 20px;
+}
+.Address1{
+    padding-bottom: 10px;
+}
+.gmail-text{
+    padding:20px;
+    padding-top: 10px;
+}
+.text-gmail{
+    padding-bottom: 13px;
+}
+.contact{
+    display: flex;
+}
+.phone-group{
+    padding: 20px;
+    padding-top: 10px;
+}
+.text-phone{
+    padding-bottom: 20px;
+}
+.pera12{
+    line-height: 2rem;
+    font-size: 18px;
+}
+.main-input{
+    display: flex;
+    column-gap: 10px;
+}
+.main-group1{
+    display: flex;
+    column-gap: 20px;
+    margin: 80px;
+}
+.main-input input{
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 13px 10px;
+    border-radius: 6px;
+}
+.text-get{
+    margin-bottom:20px;
+    font-size: 20px;
+}
+.text-Message{
+    margin-bottom: 20px;
+    font-size: 20px;
+} 
+.text-subject input{
+    height: 40px;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    margin-top:5px;
+    margin-bottom: 5px;
+    padding: 13px 10px;
+    border-radius: 6px;
+}
+.text-area textarea{
+    height: 80px;
+    width: 100%;
+
+    padding: 13px 10px;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 15px;
+    margin-top: 10px;
+}
+.button1 button{
+    height: 40px;
+    width: 150px;
+    background-color: crimson;
+    border-radius: 6px;
+    margin-top: 10px;
+    border: 1px solid gray;
+    border: none;
+}
+ button a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+   
+}
+.icon-group{
+    display: flex;
+    column-gap: 10px;
+    padding-top: 10px;
+}
+.icon-group i{
+    color: crimson;
+    font-size: 40px;
+}
+footer{
+    min-height: 60px;
+    background-color: black;
+}
+.footer1 p{
+    text-align: center;
+    color: white;
+    padding-top: 21px;
+    font-size: 20px;
+}
+@media screen and (max-width:800px) {
+    header{
+        display:block;
+        text-align: center;
+        margin-top: 10px;
+    }
+}
+@media screen and (max-width:707px) {
+    .menu a{
+        font-size: 18px;
+        padding: 10px;
+    }
+}
+@media screen and (max-width:585px) {
+    .menu a{
+       font-size: 15px;
+       padding: 7px;
+    }
+    .home1{
+        margin-right:50px;
+    }
+    .main-group1{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (max-width:450px) {
+    .menu a{
+        font-size:10px ;
+    }
+    .home1{
+        margin-right:38px;
+    }
+    .main-group1{
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: center;
+        margin: 25px;
+    }
+    .footer1 p{
+        margin: 20px;
+        padding: 20px;
+        font-size: 20px;
+    }
+}
