@@ -366,7 +366,7 @@ footer{
         /* display: flex; */
         flex-direction: column;
         justify-content: center;
-        margin: 25px;
+        margin: 15px;
     }
     .footer1 p{
         margin: 20px;
