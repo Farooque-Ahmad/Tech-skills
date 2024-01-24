@@ -360,7 +360,7 @@ footer{
         font-size:10px ;
     }
     .home1{
-        margin-right:38px;
+        margin:25px;
     }
     .main-group1{
         /* display: flex; */
@@ -371,6 +371,6 @@ footer{
     .footer1 p{
         margin: 20px;
         padding: 20px;
-        font-size: 20px;
+        font-size: 15px;
     }
 }
